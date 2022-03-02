@@ -54,10 +54,6 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '400',
   },
-  image1: {
-    height: 150,
-    margin: 5,
-  },
 });
 
 export default AlbumDetail;
