@@ -23,32 +23,35 @@ const AlbumDetail = (props) => {
 
 const styles = StyleSheet.create({
   container: {
-    shadowOffset: { width: 0, height: 5 },
+    alignItems: "center",
+    shadowOffset: { width: 3, height: 5 },
     shadowOpacity: 0.1,
     shadowRadius: 2,
     marginLeft: 25,
     marginRight: 25,
-    marginTop: 20
+    marginTop: 25,
   },
   content: {
     flexDirection: "row",
-    justifyContent: "flex-start",
+    justifyContent: "center",
+    alignItems: "center",
     padding: 5,
   },
   image: {
     height: 300,
-    width: null,
-    borderRadius: 15,
+    width: 300,
   },
   text: {
     flexDirection: "column",
-    justifyContent: "space-around",
+    justifyContent: "center",
+    alignItems: "center",
     paddingLeft: 5,
+    paddingTop: 10,
   },
   title: {
     fontSize: 16,
-    fontWeight: '900',
-    lineHeight: 40,
+    fontWeight: '700',
+    lineHeight: 30,
   },
   artist: {
     fontSize: 14,
